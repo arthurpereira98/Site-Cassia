@@ -1,6 +1,9 @@
 ﻿@font-face { font-family: 'Avenida-font'; src: url('../Fonts/AvenidaW01.woff') format('woff'); }
+@font-face { font-family: 'Open-Sans'; src: url('../Fonts/OpenSans-Regular.woff') format('woff'); }
+@font-face { font-family: 'pacifico-webfont'; src: url('../Fonts/pacifico-webfont.woff') format('woff'); }
 #img { height: 90px; }
 #header { background-color: #ffd6da; }
 .image-header { width: 10%; }
 .conteudo { width: 90%; float: right; }
-.menu { padding: 20px 20px 20px; font-size: 22px; color: #FF0000; font-family: 'Avenida-font'; color: #696969; text-decoration: none; }
+.menu { padding: 20px 20px 20px; font-size: 20px; color: #FF0000; font-family: 'pacifico-webfont'; text-decoration: none; }
+.menu li a { color: black; }

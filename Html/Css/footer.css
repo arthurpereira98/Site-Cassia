@@ -1,26 +1,7 @@
-﻿@font-face {
-    font-family:'Avenida-font';   
-    src: url('../Fonts/AvenidaW01.woff') format('woff');
-}
-.footer { 
-    font-family: 'Avenida-font';
-    color:#696969;        
-    background-color: #ffd6da;
-    position: absolute;
-    bottom: 0;
-    width: 100%;    
-   
-}
-.conteudo { 
-    font-size:20px;
-    text-align:center;
-    padding: 5px 0 0;    
-}
+﻿@font-face { font-family: 'pacifico-webfont'; src: url('../Fonts/pacifico-webfont.woff') format('woff'); }
+.footer { font-family: 'pacifico-webfont'; color: #696969; background-color: #ffd6da; height:70px; bottom: 0; width: 100%; }
+.conteudo { font-size: 15px; text-align: center; padding: 5px 0 0; }
+
 @media only screen and (max-width: 500px) {
-   .conteudo { 
-       font-size:12px;
-       display:block;
-       width:100% !important;
-       text-align:center;
-    }
+    .conteudo { font-size: 12px; display: block; width: 100% !important; text-align: center; }
 }

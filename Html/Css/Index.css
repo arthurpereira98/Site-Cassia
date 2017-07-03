@@ -1,0 +1,15 @@
+﻿@font-face { font-family: 'Open-Sans'; src: url('../Fonts/OpenSans-Regular.woff') format('woff'); }
+@font-face { font-family: 'pacifico-webfont'; src: url('../Fonts/pacifico-webfont.woff') format('woff'); }
+.item { border-style: solid; }
+.historia { background-color: #ffd6da; text-align: center; margin: 0; font-size: 15px; font-family: 'Open Sans'; }
+.titulo { color: #E97979; text-decoration: underline; font-family: pacifico-webfont; border: 0 !important; margin: 0 !important;text-align:center;padding:25px 0; }
+body { margin-bottom: 70px !important; }
+@media only screen and (max-width: 500px) {
+    .historia { font-size: 12px; display: block; width: 100% !important; text-align: center; }
+}
+#bolinho { height: 40px; }
+.produto { 
+    background-image: url("../images/background.jpg");
+    width:100%;
+}
+.categoriaProduto {text-decoration:none; }
