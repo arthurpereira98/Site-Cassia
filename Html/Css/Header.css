@@ -7,4 +7,4 @@
 .conteudo { width: 90%; float: right; }
 .menu { font-size: 15px; color: #FF0000; font-family: 'pacifico-webfont'; text-decoration: none; }
 .menu li a { color: red; }
-
+#navbar { padding:20px 0 0;}

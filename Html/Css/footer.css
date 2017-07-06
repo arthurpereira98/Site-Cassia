@@ -1,5 +1,24 @@
 ﻿@font-face { font-family: 'pacifico-webfont'; src: url('../Fonts/pacifico-webfont.woff') format('woff'); }
-.footer { font-family: 'pacifico-webfont'; color: #696969; background-color: #ffd6da; height:70px; bottom: 0; width: 100%; }
+/*.footer { font-family: 'pacifico-webfont'; color: #696969; background-color: #ffd6da; height:70px; bottom: 0; width: 100%;position: absolute; }*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 200px;
+}
+.row{
+    margin: 0;
+}
+.footer {
+    font-family: 'pacifico-webfont';
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    height: 70px;
+    color: #696969;    
+   background-color: #ffd6da;
+}
 .conteudo { font-size: 15px; text-align: center; padding: 5px 0 0; }
 
 @media only screen and (max-width: 500px) {
