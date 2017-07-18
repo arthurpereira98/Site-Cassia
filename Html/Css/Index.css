@@ -1,7 +1,7 @@
 ﻿@font-face { font-family: 'Open-Sans'; src: url('../Fonts/OpenSans-Regular.woff') format('woff'); }
 @font-face { font-family: 'pacifico-webfont'; src: url('../Fonts/pacifico-webfont.woff') format('woff'); }
 .item { border-style: solid; }
-.historia { background-color: #ffd6da; text-align: center; margin: 0; font-size: 15px; font-family: 'Open Sans'; }
+.historia { background-color: #ffd6da; text-align: center; margin: 0; font-size: 15px; font-family: 'Open Sans';padding:0 0 15px; }
 .titulo { color: #E97979; text-decoration: underline; font-family: pacifico-webfont; border: 0 !important; margin: 0 !important;text-align:center;padding:25px 0; }
 body { margin-bottom: 70px !important; }
 @media only screen and (max-width: 500px) {
@@ -14,3 +14,10 @@ body { margin-bottom: 70px !important; }
 }
 .categoriaProduto {text-decoration:none; }
 .table {padding: 0 15px 0; }
+#subtitulo{
+    font-size:18px;
+    font-family:Open-Sans;
+}
+.contato{
+    color: #E97979; font-family: pacifico-webfont; border: 0 !important; margin: 0 !important;text-align:left;padding:25px 0;
+}
