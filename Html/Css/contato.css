@@ -1,3 +1,14 @@
-﻿.campos {
-    width:100%;
+﻿.btn-tel button[type="submit"] {
+    background-color: #e46161;
+    border: 0;
+    color: #fff;
+    padding: 10px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-tel{
+    padding:15px 0 15px;    
+}
+.tel{
+    padding-top:10px;
 }
