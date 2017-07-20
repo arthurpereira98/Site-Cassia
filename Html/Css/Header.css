@@ -6,5 +6,7 @@
 .image-header { width: 10%; }
 .conteudo { width: 90%; float: right; }
 .menu { font-size: 15px; color: #FF0000; font-family: 'pacifico-webfont'; text-decoration: none; }
-.menu li a { color: red; }
+.menu li a { color:#777 ; }
 #navbar { padding:20px 0 0;}
+.header{background-color: #ffd6da !important;}
+
